@@ -1,4 +1,4 @@
-package com.tilak.ratingscale.models
+package com.jumpingminds.jmratingscale.models
 
 import androidx.annotation.DrawableRes
 

@@ -1,10 +1,9 @@
-package com.tilak.ratingscaleex
+package com.jumpingminds.ratingscaleex
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import com.tilak.ratingscale.RatingScale
+import com.jumpingminds.jmratingscale.JMRatingScale
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val ratingScale = findViewById<RatingScale>(R.id.ratingscale)
+        val ratingScale = findViewById<JMRatingScale>(R.id.ratingscale)
 
         ratingScale.setOnRatingListener { rating ->
             Log.d("rating", rating.toString())

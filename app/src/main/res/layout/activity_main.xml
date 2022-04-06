@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.tilak.ratingscale.RatingScale
+    <com.jumpingminds.jmratingscale.JMRatingScale
         android:id="@+id/ratingscale"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -47,8 +47,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.Tilak1114'
-                artifactId = 'rating-scale'
+                groupId = 'com.github.jumping-minds'
+                artifactId = 'jm-rating-scale'
                 version = '1.0'
             }
         }

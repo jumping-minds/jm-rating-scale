@@ -3,7 +3,7 @@ A rating scale android library
 
 A customizable rating scale supporting a 1-10 scale.
 
-[![](https://jitpack.io/v/Tilak1114/RatingScale.svg)](https://jitpack.io/#Tilak1114/RatingScale)
+[![](https://jitpack.io/v/jumpingminds/JMRatingScale.svg)](https://jitpack.io/#jumpingminds/JMRatingScale)
 
 ![screenshot](img/ss1.png)
 <br />
@@ -20,7 +20,7 @@ A customizable rating scale supporting a 1-10 scale.
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.tilak.ratingscale.RatingScale
+	<com.jumpingminds.jmratingscale.JMRatingScale
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,6 +41,6 @@ A customizable rating scale supporting a 1-10 scale.
     //...
     dependencies {
         //...
-        implementation 'com.github.Tilak1114:RatingScale:{latest-version}'
+        implementation 'com.github.jumpingminds:JMRatingScale:{latest-version}'
     }
 ```

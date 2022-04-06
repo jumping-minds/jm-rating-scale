@@ -1,4 +1,4 @@
-package com.tilak.ratingscale
+package com.jumpingminds.ratingscaleex
 
 import org.junit.Test
 

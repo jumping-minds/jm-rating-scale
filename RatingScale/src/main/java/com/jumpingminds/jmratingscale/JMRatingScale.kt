@@ -1,18 +1,17 @@
-package com.tilak.ratingscale
+package com.jumpingminds.jmratingscale
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.TypedArray
 import android.util.AttributeSet
-import android.view.MotionEvent
 import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.tilak.ratingscale.models.RatingItem
+import com.jumpingminds.jmratingscale.models.RatingItem
 
 
-class RatingScale : ConstraintLayout, View.OnClickListener {
+class JMRatingScale : ConstraintLayout, View.OnClickListener {
 
     private lateinit var ratingItems: Array<RatingItem>
     private var currentRating = -1
